@@ -1,0 +1,18 @@
+﻿{
+    "Packages": [
+        {
+            "FileUri": "",
+            "CreatedDate": "2016-11-21T17:30:01.5665029-08:00",
+            "PackageName": "Esp8266WifiScan",
+            "FileName": "WifiScan.1.0.0.bin",
+            "Version": "1.0.0"
+        },
+        {
+            "FileUri": "https://softwareota.blob.core.windows.net/softwareimages/WifiScan.1.0.1.bin",
+            "CreatedDate": "2016-11-22T15:02:27.785524-08:00",
+            "PackageName": "Esp8266WifiScan",
+            "FileName": "WifiScan.1.0.1.bin",
+            "Version": "1.0.1"
+        }
+    ]
+}

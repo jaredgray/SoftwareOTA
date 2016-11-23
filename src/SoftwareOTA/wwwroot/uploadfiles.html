@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <form id="uploadfiles" action="api/update"
+          method="post"
+          enctype="multipart/form-data">
+        <input type="file" name="files" multiple />
+        <input type="submit" value="Upload Selected Files" />
+    </form>
+    <!--<script type="text/javascript">
+        $("#uploadfiles").submit(function (e) {
+            e.preventDefault();
+            var jqxhr = $.post('api/update', $('#uploadfiles').serialize())
+            .success(function () {
+                var loc = jqxhr.getResponseHeader('Location');
+                var a = $('<a/>', { href: loc, text: loc });
+                $('#message').html(a);
+            })
+            .error(function () {
+                $('#message').html("Error posting the update.");
+            });
+        return false;
+    });
+    </script>-->
+</body>
+</html>
